@@ -1,0 +1,269 @@
+body {
+  min-height: 2000px;
+  background-color: #EEEEEE;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+#bg-top-header{
+	background: url("../img/bg-topo.png") repeat-x scroll center top rgba(0, 0, 0, 0);
+    border: 0 none;
+    padding: 0 0 12px;
+}
+
+.logo-topo{}
+
+#bto-configurations{
+	height: 37px;
+    line-height: 35px !important;
+    margin: 10px 0 0;
+    padding: 0 10px;
+}
+
+#bto-configurations:hover{
+	background-color: #FFF;
+}
+.navbar-default .navbar-toggle {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: 0;
+}
+
+.Box-user-topo{
+	float: left;
+}
+.Box-user-topo img{
+	float: left;
+	margin-right: 10px;
+}
+.Box-user-topo span{
+	color: #357EB0;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* Box de feeds no header*/
+.Box-feeds-news{
+	float: right;
+}
+.content-feeds-box{
+	border: 1px solid #CCCCCC;
+    float: right;
+    padding: 0;
+}
+.data-feeds-box{
+	background-image: url("../img/img-DataNoticia.jpg");
+    float: left;
+    width: 77px;
+    margin-right: 2%;
+}
+.Pdata{
+	color: #FFFFFF;
+    float: left;
+    font-size: 26px;
+    padding: 10px 0 0 20px;
+    width: 100%;
+}
+.Pdata span{
+	display: block;
+    font-size: 18px;
+    line-height: 17px;
+}
+.content-feeds {
+	float: left;
+    padding: 0 0 0 4px;
+    width: 72%;
+}
+.content-feeds h3{
+	float: left;
+    margin: 6px 0 0;
+    padding: 0;
+    color: #357EB0;
+    font-size:13px;
+    font-weight: bold;
+}
+.content-feeds p{
+	color: #878787;
+    float: left;
+    font-size: 12px;
+    margin: 7px 0;
+    width: 100%;
+}
+.content-feeds a{
+	color: #357EB0;
+    float: left;
+    margin: 1px 0;
+    width: 100%;
+}
+
+
+@media (min-width:380px){
+	.content-feeds-box {
+		width: 100%;
+	}	
+	.Box-feeds-news {
+		width: 100%;
+		margin: 4% 0;
+	}
+}
+
+@media (min-width:768px){
+	.content-feeds-box {
+		width: 100%;
+	}
+	.Box-feeds-news {
+	    float: right;
+	    margin: 0;
+	    width: 407px;
+	}
+	
+}
+/* Fim do css de "Box de feeds no header" */
+
+
+
+
+/* Painel de apps - página inicial */
+.panel-title{
+	color:#357EB0;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.panel-apps{
+	margin: 2% 0;
+	background: #F5F5F5;
+}
+.panel-heading{
+	background: #F5F5F5;	
+}
+
+.boxs-apps .col-xs-6{
+	margin-bottom: 2%;
+}
+
+.barra-btn-contratar{
+	margin: 2% 0; 
+}
+/* Fim do painel de apps - página inicial */
+
+
+
+
+/* BoxPublicações */
+.box-publicacoes{
+	float: left;
+	width: 100%;
+}
+/* Fim BoxPublicações */
+
+
+
+
+
+
+
+.bs-glyphicons {
+    overflow: hidden;/
+}
+.bs-glyphicons-list {
+    list-style: none outside none;
+    padding-left: 0;
+    float: left;
+    width: 100%;
+}
+.bs-glyphicons li {
+    background-color: #F9F9F9;
+    border: 1px solid #FFFFFF;
+    float: left;
+    font-size: 10px;
+    height: 115px;
+    line-height: 1.4;
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+}
+.bs-glyphicons .glyphicon {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 10%;
+}
+.bs-glyphicons .glyphicon-class {
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+}
+.bs-glyphicons li a{
+	color:#333;
+	text-decoration: none;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+.bs-glyphicons li:hover > a {
+    background-color: #347AAB;
+    color: #FFFFFF;
+}
+@media (min-width: 768px) {
+.bs-glyphicons {
+    margin-left: 0;
+    margin-right: 0;
+}
+.bs-glyphicons li {
+    font-size: 12px;
+    /*width: 12.5%;*/
+    width: 20%;
+}
+}
+.bs-customizer .toggle {
+    float: right;
+    margin-top: 25px;
+}
+.bs-customizer label {
+    color: #555555;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.bs-customizer h2 {
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding-top: 30px;
+}
+.bs-customizer h3 {
+    margin-bottom: 0;
+}
+.bs-customizer h4 {
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+
+.frm-search-movi {
+    border: 1px solid #DDDDDD;
+    float: left;
+    margin: 0 0 0 1%;
+    padding: 1%;
+    width: 50%;
+}
+
+.sub-title{
+	border-bottom: 1px solid #DDDDDD;
+    font-size: 24px;
+    margin-bottom: 2%;
+    padding: 0 0 5px;
+}
+
+.form-group1{
+    float: left;
+    margin: 0 0 3% 1%;
+    padding: 1%;
+    width: 100%;
+}
+
+.lnk-busca-avancada{
+	float: left;
+    margin: 10px 10px 0 0;
+}
